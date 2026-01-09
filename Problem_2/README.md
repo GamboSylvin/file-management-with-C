@@ -28,5 +28,12 @@ The main tasks involved in this problem were:
 ### Implementation Details
 
 The project was implemented in C programming language, making use of standard file I/O operations,
-and used functinons like `createDatabase` and `searchData` to create and search in the in-memory hash table respectively.
+and used functinons like `createDatabase` and `searchInHash` to create and search in the in-memory hash table respectively.
 the type of hashing used was _multiplicative hashing_ to handle collisions effectively.
+
+### Coordination of Tasks
+
+A menu is placed at the start of the program to allow the user to select which operation they wish to perform.
+operations are being performed based on user input, and the program continues to run until the user decides to exit.
+A switch-case structure is used to handle the different operations based on user choice and the in-memory 
+hash table is maintained throughout the program's execution for efficient data manipulation.
